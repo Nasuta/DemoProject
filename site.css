@@ -208,7 +208,7 @@ container {
   margin: 0 20px;
 }
 
-/* Why hover doensn't work?*/
+
 .social-links .social-link:hover {
   color: #777;
 }
@@ -222,13 +222,15 @@ container {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 992;
+    max-width: 992px;
+    margin: auto;
   }
 }
 
 @media (max-width: 992px) {
   .container {
-    max-width: 768;
+    max-width: 768px;
+    margin: auto;
   }
 
   .portfolio-wrapper .portfolio-item {
@@ -239,6 +241,7 @@ container {
 @media (max-width: 768px) {
   .container {
     max-width: 95%;
+    margin: auto;
   }
   .portfolio-wrapper .portfolio-item {
     flex-basis: 100%;
@@ -246,6 +249,10 @@ container {
 }
 
 @media (max-width: 480px) {
+
+  .container {
+    margin: auto;
+  }
   .main-header .main-header-content h1 {
     font-size: 3em;
   }
